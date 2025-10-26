@@ -1,16 +1,8 @@
-<a href="https://github.com/mxssl/tg-captcha-bot/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/mxssl/tg-captcha-bot"></a>
-<a href="https://github.com/mxssl/tg-captcha-bot/releases/latest"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/mxssl/tg-captcha-bot/total"></a>
-<a href="https://hub.docker.com/r/mxssl/tg-captcha-bot"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/mxssl/tg-captcha-bot"></a>
-
 # Telegram Captcha Bot
 
 Telegram bot that validates new users that enter supergroup. Validation works like a simple captcha. Bot written in Go (Golang).
 
 This bot has been tested on several supergroups (2000+ people) for a long time and has shown its effectiveness against spammers.
-
-## Cloud hosted instance of the bot
-
-[@cloud_tg_captcha_bot](https://t.me/cloud_tg_captcha_bot)
 
 ## How it works
 
@@ -34,7 +26,3 @@ This bot has been tested on several supergroups (2000+ people) for a long time a
 ## Сustomization
 
 You can change several bot's settings (welcome message, ban duration, socks5 proxy server) through the configuration file `config.toml`
-
-## Alternatives / Forks
-
-- [momai/tg-captcha-bot](https://github.com/momai/tg-captcha-bot) - fork of `tg-captcha-bot` with interesting additional features.
